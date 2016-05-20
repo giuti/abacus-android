@@ -1,0 +1,25 @@
+<resources>
+
+    <color name="background">#7094A6</color>
+    <color name="menu">#336680</color>
+    <color name="white">#FFFFFF</color>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="android:buttonStyle">@style/Button</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/menu</item>
+        <item name="background">@color/menu</item>
+    </style>
+
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/menu</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

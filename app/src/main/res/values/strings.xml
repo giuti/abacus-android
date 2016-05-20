@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">La Calculadora de La Liga</string>
+    <string name="title_activity_liga_esp1_clas">Clasificación</string>
+    <string name="title_activity_liga_esp1_calc">Calculadora</string>
+    <string name="title_activity_liga_esp1_clas_calc">Clasificación Calculada</string>
+    <string-array name="Tags">
+        <item>Liga BBVA</item>
+        <item>Liga Adelante</item>
+    </string-array>
+
+    <string name="buttonClas">Ver Clasificación</string>
+    <string name="buttonCalc">Calcular Resultados</string>
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="action_example">action_example</string>
+    <string name="action_settings">action_settings</string>
+
+    <string name="position">POS</string>
+    <string name="teamName">EQUIPO</string>
+    <string name="points">PTS</string>
+</resources>

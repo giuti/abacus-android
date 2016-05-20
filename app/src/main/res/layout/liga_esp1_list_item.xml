@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center">
+<!--
+        <<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/fecha"
+            android:inputType="date"
+            android:layout_gravity="left"
+            android:gravity="left" />
+-->
+        <TextView
+            android:id="@+id/unoxdos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  1     X     2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/escudoL"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/nombreEquipoL"
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:layout_height="match_parent"
+            android:text="Nombre Local"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:gravity="center_vertical|center_horizontal|clip_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/escudoL"
+            android:layout_toEndOf="@+id/escudoL" />
+
+        <RadioGroup
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight=".33"
+                android:layout_height="match_parent"
+                android:id="@+id/radioButton1"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight=".33"
+                android:layout_height="match_parent"
+                android:id="@+id/radioButton2"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight=".33"
+                android:layout_height="match_parent"
+                android:id="@+id/radioButton3"
+                android:checked="false" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/nombreEquipoV"
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:layout_height="match_parent"
+            android:text="Nombre Visitante"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:gravity="center_vertical|center_horizontal|fill_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/escudoV"
+            android:layout_toStartOf="@+id/escudoV" />
+
+        <ImageView
+            android:id="@+id/escudoV"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>
